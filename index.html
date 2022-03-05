@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a,b, c;
+        a = 60;
+        b = 40;
+        c = 50;
+        if (a > b && a>c){
+            console.log("The largest value is a");
+            if(b==c){
+                console.log("But b and c is similar")
+            }
+        }
+        else if (b>a && b>c){
+            console.log("The largest value is b");
+            if(a==c){
+                console.log("But a and c is similar")
+            }
+        }
+        else if(c>b && c>a){
+            console.log("The largest value is c");
+            if(b==a){
+                console.log("But a and b is similar")
+            }
+        }
+        else{
+            if(a==b && b==c){
+                console.log("a, b and c is similar");
+            }
+            else if(a==b){
+                console.log("a and b is similar")
+            }
+            else if(b==c){
+                console.log("b and c is similar")
+            }
+            else if(c==a){
+                console.log("a and c is similar")
+            }
+        }
+    </script>
+</body>
+</html>
